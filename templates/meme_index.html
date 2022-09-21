@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<!--charecter range utf-8 or ansi deppending on if the creator uses emojis or not-->
+<html>
+<head>
+<title>Meme Website</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="refresh" content="30;url=" />
+<style>
+
+body {background-color:#000000;background-repeat:no-repeat;background-position:top left;background-attachment:fixed;}
+h1{text-align:center;font-family:Arial, sans-serif;color:#ffffff;background-color:#000000;}
+p {text-align:center;font-family:Georgia, serif;font-size:48px;font-style:normal;font-weight:normal;color:#ffffff;background-color:#000000;}
+
+.body {background-color:#000000;background-repeat:no-repeat;background-position:top left;background-attachment:fixed;}
+.h1{text-align:center;font-family:Arial, sans-serif;color:#ffffff;background-color:#000000;}
+.p {text-align:center;font-family:Georgia, serif;font-size:48px;font-style:normal;font-weight:normal;color:#ffffff;background-color:#000000;}
+.skip-link {
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	text-align: center;
+	background-color: #181818;
+	color: white;
+	padding: .5rem;
+	translate: 0 -100%;
+	transition: translate 150ms ease-in-out;
+}
+.skip-link:focus {
+	translate: 0;
+}
+:not(.skip-link):focus {
+	outline: 1px solid red;
+}
+skip-link {
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	text-align: center;
+	background-color: #181818;
+	color: white;
+	padding: .5rem;
+	translate: 0 -100%;
+	transition: translate 150ms ease-in-out;
+}
+skip-link:focus {
+	translate: 0;
+}
+.donot {text-align:center;font-family:Georgia, serif;font-size:10px;font-style:normal;font-weight:normal;color:#ffffff;background-color:#000000;}
+.text {
+	text-align: center;
+	font-family: Georgia, serif;
+	font-size: 28px;
+	font-style: normal;
+	font-weight: normal;
+	color: #ffffff;
+	background-color: #000000;
+}
+</style>
+</head>
+<body>
+<a class="skip-link" href="#main-content">Skip to main content</a>
+<h1>A website to gather some memes!</h1>
+<br>
+<p>Here is your meme! This will refresh in 30 seconds!</p>
+<br>
+<br>
+<br>
+<br>
+<br>
+<main id="main-content">
+<p><img src="{{meme_pic}}"></p>
+<p>Current subreddit: {{subreddit}} </p>
+<p class="text" id="link1"><a href="{{meme_pic}}">meme picture</a></p>
+<p class="text" id="link2"><a href="{{url}}">meme url to api</a></p>
+<p class="text" id="link3"><a href="{{link}}">link to redit post</a></p>
+<br>
+<br>
+<br>
+<p class="donot">{{full_meme_large}}</p>
+</main>
+</body>
+</html>
+
+
