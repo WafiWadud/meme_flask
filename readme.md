@@ -1,9 +1,9 @@
 # README.MD
 requirements.
-- python 3.10.x
-- pip latest
+- python 3.10.x.
+- pip latest.
 Running.
-- open up cmd and type
+open up cmd and type
 ```
 pip install flask requests
 ```
