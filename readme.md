@@ -33,6 +33,6 @@ and then run
 ##### where to go
 it will try to start on port 5000
 
-so open up your web browser and goto 127.0.0.1:5000
+so open up your web browser and goto [127.0.0.1:5000](127.0.0.1:5000)
 
 and enjoy!!!.
