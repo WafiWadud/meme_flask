@@ -18,7 +18,7 @@ app = Flask(__name__)
 @app.route("/")
 def index():
     meme_pic,subreddit, link, full_meme_large = get_meme()
-    url = "https://meme-api.herokuapp.com/gimme"
+    url = "https://meme-api.com/gimme"
     return render_template("meme_index.html", meme_pic=meme_pic, subreddit=subreddit, url=url, link=link, full_meme_large=full_meme_large)
 
 app.run(host="0.0.0.0", port=5000, debug=True)
