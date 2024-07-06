@@ -1,10 +1,10 @@
 # README.MD
 
 ## requirements.
-- python 3.10.x.
+- python 3.1X
 - pip latest.
 
-### Running on windows.
+## Running on windows.
 get the zip
 
 extract it
@@ -17,7 +17,7 @@ and then run
 ```
 python run.py
 ```
-#### Running on other systems
+## Running on other systems
 get the zip
 
 extract it
@@ -30,7 +30,7 @@ and then run
 ```
 ./meme_flask.py
 ```
-##### where to go
+## where to go
 it will try to start on port 5000
 
 so open up your web browser and goto [127.0.0.1:5000](127.0.0.1:5000)
